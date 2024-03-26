@@ -4,6 +4,7 @@ import bodyParser from "body-parser"
 import dotenv from "dotenv"
 import route from "./routes/employeeRoute.js"
 
+
 const app = express()
 app.use(bodyParser.json())
 
